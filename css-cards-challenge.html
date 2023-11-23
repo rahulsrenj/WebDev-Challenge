@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Cards Excercise</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(212, 212, 212);
+      }
+      .cards {
+        background-color: rgb(255, 255, 255);
+        height: 90vh;
+        width: 25vw;
+        border-radius: 15px;
+        margin: 10px auto;
+        border: 0.5px solid rgb(206, 206, 206);
+        box-shadow: 0px -1px 20px 4px rgba(0, 0, 0, 0.342);
+      }
+      .img-container {
+        background-color: yellow;
+        width: 95%;
+        height: 40%;
+        border-radius: 20px;
+        display: inline-block;
+        margin: 10px 8px;
+        overflow: hidden;
+      }
+      .img-container img {
+        object-fit: fill;
+        height: 100%;
+        width: 100%;
+      }
+      .label {
+        margin: 5px 10px;
+      }
+      .label button {
+        width: 24%;
+        padding: 6px;
+        border-radius: 20px;
+        border-style: none;
+        border-width: 2px;
+        color: rgb(88, 88, 88);
+      }
+      .heading {
+        height: 15%;
+        display: flex;
+        align-items: center;
+        margin: 15px;
+      }
+      .heading h3 {
+        font-size: 35px;
+      }
+      .content {
+        margin: 8px;
+        color: rgb(70, 70, 70);
+        font-weight: 45px;
+      }
+      .lastbtn {
+        display: inline-block;
+        margin: 10px 110px;
+      }
+      .lastbtn > a {
+        padding: 10px;
+        text-decoration: none;
+        color: rgb(19, 116, 143);
+        background-color: rgb(36, 156, 189, 0.25);
+        border-radius: 10rem;
+        align-self: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cards">
+      <div class="img-container">
+        <img
+        src="https://images.pexels.com/photos/3326178/pexels-photo-3326178.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+        alt="Lake" >
+      </div>
+      <div class="label">
+        <button>Nature</button>
+        <button>Lake</button>
+      </div>
+      <div class="heading">
+        <h3>Lagio di Braies</h3>
+      </div>
+      <div class="content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+        eligendi ea ducimus accusantium autem eius cumque voluptas vel amet
+        natus.
+      </div>
+      <div class="lastbtn">
+        <a href="#">Read More</a>
+      </div>
+    </div>
+  </body>
+</html>
